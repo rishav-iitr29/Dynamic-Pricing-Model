@@ -13,8 +13,8 @@ The pathway implementation is in google cloud and the EDA + python implementatio
 - Project Architecture & Workflow :
   1. Data Ingestion - Parking data is ingested via csv file in static mode in Pathway and using Pandas in Python
   2. Processing Pipeline - Process the data using two models:
-     - Baseline Linear Model - Computes price as `BasePrice + α * OccRate`
-     - Demand-Based Model - More factors are added using custom demand function, `FinalPrice = BasePrice * (1 + λ * Demand)`
+     - <ins>Baseline Linear Model</ins> - Computes price as `BasePrice + α * OccRate`
+     - <ins>Demand-Based Model</ins> - More factors are added using custom demand function, `FinalPrice = BasePrice * (1 + λ * Demand)`
   4. Visualization & Output - Prices are visualized for each parking lot using Bokeh and Matplotlib
 
 ## Additional Documents
