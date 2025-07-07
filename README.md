@@ -8,7 +8,7 @@ The Project demanded that the data streams should be real time, but I couldn't f
 The pathway implementation is in google cloud and the EDA + python implementation part is in the Jupyter notebook uploaded (DynamicPricingModel_python.ipynb).
 
 ## Architecture Diagram
-![](./Architecture_Diagram.png)
+![](./misc./Architecture_Diagram.png)
 
 - Project Architecture & Workflow :
   1. Data Ingestion - Parking data is ingested via csv file in static mode in Pathway and using Pandas in Python
